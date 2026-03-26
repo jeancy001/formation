@@ -1,0 +1,68 @@
+body{
+    background-color: aliceblue;
+    padding:0px;
+
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+h4{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    margin-bottom:15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+
+}
+
+textarea{
+    margin-top: 10px;
+    flex: 4em;
+    padding: 10px;
+     border-radius: 8px;
+    border: none;
+    outline: none;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    padding-right: 10px;
+    border-radius: 10px;
+    border:1px solid  rgb(236, 233, 233);
+    outline: none;
+    background-color: rgb(18, 41, 78);
+    color: white;
+    cursor: pointer;
+
+
+}
+button:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+form{
+    position: relative;
+    float: left;
+}
+.forms{
+flex-direction: column;
+align-items:center;
+background-color: rgb(92, 154, 133);
+border-radius: 10px;
+border: 1px solid rgb(40, 63, 71);
+padding: 10px;
+margin: 10px;
+}
